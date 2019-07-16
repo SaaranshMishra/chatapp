@@ -1,5 +1,5 @@
 // Make Connection
-var url = window.location.hostname === 'localhost' ? 'http://localhost:4000' : 'https://cluster-chat.herokuapp.com/'
+var url = window.location.hostname === 'localhost' ? 'http://localhost:4000' : 'https://cluster-chat.herokuapp.com/';
 var socket = io.connect(url);
 
 // Query DOM
